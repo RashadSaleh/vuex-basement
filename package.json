@@ -1,0 +1,27 @@
+{
+  "name": "vuex-basement",
+  "version": "0.6.2",
+  "description": "Vuex state persistance and synchronization between tabs/windows.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "vuex",
+    "vuejs",
+    "vue.js",
+    "vue"
+  ],
+  "author": "Rashad Saleh <rashad.saleh@gmail.com> (https://rashad.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "store": "^1.3.20"
+  }
+}
