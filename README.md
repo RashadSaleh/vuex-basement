@@ -2,7 +2,7 @@
 Vuex state persistance and synchronization between tabs/windows.
 
 ### One Shortcomming (please read before use).
-This library has been tested to work as intended on latest versions of Chrome, Firefox and Edge. However, in Chrome, there is a noticable delay between issuing a `global commit` to change the state in *all* open tabs/windows, and for the actual changes to take effect. This might be degrading to the user experience you want to achieve, and you are welcome to try this for your application and judge for yourself. This "bug" has survived multiple code rewrites and is not obvious to determine its cause from studying the code alone, which might or might not mean that it is a *Chrome* bug. Any help will with the issue will be greatly appreciated.
+This library has been tested to work as intended on latest versions of Chrome, Firefox and Edge. However, in Chrome, there is a noticable delay between issuing a `global commit` to change the state in *all* open tabs/windows, and for the actual changes to take effect. This might be degrading to the user experience you want to achieve, and you are welcome to try this for your application and judge for yourself. This "bug" has survived multiple code rewrites and is not obvious to determine its cause from studying the code alone, which might or might not mean that it is a *Chrome* bug. Any help will with [the issue](https://github.com/RashadSaleh/vuex-basement/issues/1) will be greatly appreciated.
 
 ### Installation
 
