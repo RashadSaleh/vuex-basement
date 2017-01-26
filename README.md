@@ -1,6 +1,7 @@
 # vuex-basement
 Vuex state persistance and synchronization between tabs/windows.
 
+<<<<<<< HEAD
 ~~### One Shortcomming (please read before use).
 This library has been tested to work as intended on latest versions of Chrome, Firefox and Edge. However, in Chrome, there is a noticable delay between issuing a `global commit` to change the state in *all* open tabs/windows, and for the actual changes to take effect. This might be degrading to the user experience you want to achieve, and you are welcome to try this for your application and judge for yourself. This "bug" has survived multiple code rewrites and is not obvious to determine its cause from studying the code alone, which might or might not mean that it is a *Chrome* bug. Any help will with [the issue](https://github.com/RashadSaleh/vuex-basement/issues/1) will be greatly appreciated.~~
 
@@ -9,6 +10,10 @@ SOLVED! Turns out the problem was caused by browsers (especially chrome) throttl
 ### Concept
 
 vuex-basement allows you to define a "basement" for your vue app that is shared between all open tabs/windows. The basement is simply a part (or all) of your vuex state that, optionally, can be made persisting, as well as being shared, accessable and reactive from any tab/window. This is accomplished through defining the paths of your state that form the persistant "basement" state, as well as adding the powerful `global commit` action to your vuex store, which allows you to issue a commit from any tab to *all* open tabs/windows, effectively synchronizing the app state across those tabs/windows.
+=======
+### One Shortcomming (please read before use).
+This library has been tested to work as intended on latest versions of Chrome, Firefox and Edge. However, in Chrome, there is a noticable delay between issuing a `global commit` to change the state in *all* open tabs/windows, and for the actual changes to take effect. This might be degrading to the user experience you want to achieve, and you are welcome to try this for your application and judge for yourself. This "bug" has survived multiple code rewrites and is not obvious to determine its cause from studying the code alone, which might or might not mean that it is a *Chrome* bug. Any help will with [the issue](https://github.com/RashadSaleh/vuex-basement/issues/1) will be greatly appreciated.
+>>>>>>> origin/master
 
 ### Installation
 
