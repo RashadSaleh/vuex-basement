@@ -1,6 +1,6 @@
 {
   "name": "vuex-basement",
-  "version": "0.6.4",
+  "version": "0.6.6",
   "description": "Vuex state persistance and synchronization between tabs/windows.",
   "main": "dist/index.js",
   "scripts": {
