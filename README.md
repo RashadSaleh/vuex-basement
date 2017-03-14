@@ -1,5 +1,6 @@
 # vuex-basement
 Vuex state persistance and synchronization between tabs/windows. 
+
 Tested to work with Vue2.
 
 ### ~~One Shortcomming (please read before use).~~
